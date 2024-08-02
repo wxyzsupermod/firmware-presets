@@ -7360,8 +7360,8 @@
     },
     {
       "fullPath": "presets/4.5/tune/ScrapHeap_KIWI_MK4.txt",
-      "hash": "0600109a516b4f7c00d3ff292b191c7b21a309b4a6134a15e98b3e7d8d68af1e",
-      "title": "Betaflight 4.5 TUNE defaults",
+      "hash": "c0ea14a09f1eb469c8d14edb4e087598eaad553acedb9cb32037bfabad533608",
+      "title": "ScrapHeap Kiwi Mk4 Tune",
       "firmware_version": [
         "4.5"
       ],

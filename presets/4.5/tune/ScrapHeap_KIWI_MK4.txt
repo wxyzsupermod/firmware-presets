@@ -1,4 +1,4 @@
-#$ TITLE: Betaflight 4.5 TUNE defaults
+#$ TITLE: ScrapHeap Kiwi Mk4 Tune
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
