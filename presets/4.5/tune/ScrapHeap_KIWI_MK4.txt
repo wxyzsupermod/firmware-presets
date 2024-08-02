@@ -1,0 +1,67 @@
+#$ TITLE: Betaflight 4.5 TUNE defaults
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, tune, pid, basic, default
+#$ AUTHOR: ScrapHeap
+#$ DESCRIPTION: Warning! Makes KIWI Fly Like Magic
+#$ DESCRIPTION: Warning! Motors May get hot dont take off if they sound weird
+#$ DESCRIPTION: Warning! Requires F500hz ELRS
+#$ DESCRIPTION: Warning! Connor is not allowed to use this tune!
+#$ DESCRIPTION: Warning! Bi-Directional Dshot required 24 degrees esc motor timing at 48khz locked
+#$ PRIORITY: 0
+
+# THE FOLLOWING PARAMETERS ARE CONTROLLED
+# ALL WILL BE RESET TO DEFAULTS WHEN THIS DEFAULT IS RUN
+# ALL USER PREFERENCES FOR THESE VALUES WILL BE OVER-WRITTEN
+# IF THE AUTHOR WANTS A NON-DEFAULT VALUE, THEIR TUNE MUST SET IT
+# BOTH CHECKED AND UNCHECKED OPTIONS CAN BE USED FOR THESE PARAMETERS
+
+# profile 0
+set simplified_gyro_filter = OFF
+set dterm_lpf1_dyn_expo = 10
+set iterm_relax_cutoff = 20
+set iterm_limit = 500
+set pidsum_limit_yaw = 1000
+set throttle_boost = 2
+set p_pitch = 41
+set i_pitch = 86
+set d_pitch = 41
+set f_pitch = 137
+set p_roll = 38
+set i_roll = 78
+set d_roll = 37
+set f_roll = 125
+set d_min_roll = 25
+set d_min_pitch = 27
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 4
+set feedforward_boost = 18
+set feedforward_max_rate_limit = 100
+set dyn_idle_min_rpm = 40
+set dyn_idle_p_gain = 35
+set simplified_pids_mode = RP
+set simplified_i_gain = 115
+set simplified_d_gain = 85
+set simplified_pi_gain = 85
+set simplified_dmax_gain = 140
+set simplified_feedforward_gain = 105
+set simplified_pitch_d_gain = 95
+set simplified_pitch_pi_gain = 105
+set tpa_rate = 70
+set tpa_breakpoint = 1250
+set ez_landing_limit = 5
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 1
+set dyn_notch_q = 600
+set dyn_notch_min_hz = 200
+set dyn_notch_max_hz = 650
+set gyro_lpf1_dyn_min_hz = 500
+set gyro_lpf1_dyn_max_hz = 1000
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+set rpm_filter_harmonics = 2
+set rpm_filter_min_hz = 150
+set rpm_filter_fade_range_hz = 100
+
